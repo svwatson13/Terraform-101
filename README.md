@@ -25,6 +25,9 @@ In our stack we have:
 ## modules
 Modules allow you to separate concerns of instances
 
+## 2 Tier Architecture
+This terraform main.tf file creates a 2 tier architecture on AWS  with all the necessary features mentioned above. This was also done using modules of each subnet (app/public and db/private).
+
 ## setting mongo env variable:
 1) create output of db instance private ip
 2) create variable of db instance ip in app tier
