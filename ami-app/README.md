@@ -1,4 +1,5 @@
-# app_ami
+# app ami
 
-TODO: Enter the cookbook description here.
-
+This includes
+- a simple chef recipe for installing all the app dependencies and the app
+- packer.json file which creates an ami using this recipe
